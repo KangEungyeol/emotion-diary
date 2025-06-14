@@ -1,0 +1,52 @@
+.record-container {
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.record-title {
+    font-size: 30px;
+    margin: 15px 0px 0px 0px;
+}
+
+.record-subtitle {
+    font-size: 20px;
+    margin: 10px 0 55px 0;
+}
+
+.emotion-list {
+    display: grid;
+    /* grid로 변경 */
+    grid-template-columns: repeat(3, 1fr);
+    /* 3개씩 배치 */
+    gap: 12px;
+    justify-items: center;
+    /* 아이콘 가운데 정렬 */
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: 50px auto;
+}
+
+.emotion-item {
+    font-size: 45px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.date-up {
+    margin-top: 30px;
+    color: gray;
+}
+
+.emotion-emoji {
+    color: gray;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 0px 15px 0px;
+    border-bottom: 1.5px solid lightgray;
+}
+
+.emotion-item.selected {
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    padding: 8px;
+}

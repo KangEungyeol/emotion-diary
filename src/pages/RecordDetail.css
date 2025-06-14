@@ -1,0 +1,152 @@
+body {
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    min-height: 120vh;
+}
+
+.record-detail-container {
+    width: 100%;
+    max-width: 760px; /* 넓이 넓힘 */
+    box-sizing: border-box;
+}
+
+.record-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+    padding: 0 24px; /* 간격 넓힘 */
+}
+
+.back-button,
+.more-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #333;
+}
+
+.back-button:hover,
+.more-button:hover {
+    background-color: #ffffff;
+}
+
+.record-detail-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    max-width: 760px;
+    box-sizing: border-box;
+}
+
+.emoji {
+    font-size: 130px;
+    text-align: center;
+}
+
+.date {
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 70%;
+    padding: 0 8px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.slider-label {
+    font-size: 15px;
+    color: #555;
+}
+
+.slider {
+    flex-grow: 1;
+}
+
+.title-input {
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: transparent;
+    margin-bottom: 10pxd;
+}
+
+.content-input {
+    width: 100%;
+    min-height: 200px;
+    font-size: 16px;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-align: left;
+    background-color: transparent;
+    resize: vertical;
+    /* border: 1px solid black; */
+}
+
+.record-detail-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+    width: 100%;
+    max-width: 760px;
+    margin-top: 48px;
+}
+
+.delete-button,
+.save-button {
+    width: 56px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #6A5ACD;
+}
+
+.delete-button:hover,
+.save-button:hover {
+    background-color: #ffffff;
+    /* color: #6A5ACD; */
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}

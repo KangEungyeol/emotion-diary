@@ -1,0 +1,61 @@
+.analysis-title {
+  font-size: 24px;
+  padding: 16px;
+}
+
+.analysis-container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.analysis-subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.analysis-subtitle span {
+    display: inline-block;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 4px;
+}
+
+
+.chart-card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    width: 100%;
+}
+
+.chart-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    text-align: left;  /* 감정변화, 감정흐름 텍스트 왼쪽정렬 */
+    width: 100%;
+}
+
+.chart-card.line-chart {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.chart-card.line-chart canvas {
+    height: 400px !important;
+}
+
+.pie-chart-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}

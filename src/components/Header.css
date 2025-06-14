@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  padding: 0 5px;
+  padding-top: 5px;
+  /* border: 3px solid #ddd; */
+  background-color: #fff;
+  width: 100%;
+}
+
+.header-left {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  margin-top: 3px;
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-right {
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.header-left:hover {
+    background-color: #ffffff;
+}

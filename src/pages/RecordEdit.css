@@ -1,0 +1,80 @@
+.record-edit-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.record-edit-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.back-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-header-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.record-edit-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.emoji {
+    text-align: center;
+}
+
+.date {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.slider-label {
+    font-size: 14px;
+}
+
+.slider {
+    flex: 1;
+}
+
+.title-input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.content-input {
+    padding: 8px;
+    font-size: 16px;
+    height: 120px;
+    resize: vertical;
+}
+
+.save-button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
