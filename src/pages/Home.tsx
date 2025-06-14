@@ -85,7 +85,7 @@ const Home: React.FC = () => {
                       width: '6px',
                       height: '6px',
                       borderRadius: '50%',
-                      background: '#4CAF50',
+                      backgroundColor: '#4CAF50',
                       margin: '0 auto',
                     }}
                   />
