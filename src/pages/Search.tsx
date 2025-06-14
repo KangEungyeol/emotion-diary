@@ -69,7 +69,7 @@ const Search = () => {
             <div className="search-scroll-wrapper">
                 {/* 검색기록 타이틀 */}
                 <div className="search-section-header">
-                    <div className='resulttext'>검색결과</div>
+                    <span>검색결과</span>
                     {/* 전체삭제 버튼 삭제됨 */}
                 </div>
 
